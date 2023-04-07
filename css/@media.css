@@ -1,0 +1,53 @@
+/* ПК */
+@media (max-width: 1087px) {
+   [class*="__container"] {
+      max-width: 970px;
+   }
+
+   .cart {
+      min-width: 300px;
+      height: 100%;
+      height: auto;
+   }
+}
+
+/* Планшет */
+@media (max-width: 991.98px) {
+   [class*="__container"] {
+      max-width: 750px;
+   }
+
+   .header {
+      display: block;
+   }
+
+   .header__elements {
+      margin-top: 150px;
+   }
+
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+   [class*="__container"] {
+      max-width: 479.98px;
+   }
+
+   .close {
+      width: 100%;
+      margin-left: 0px;
+   }
+}
+
+/* Mobile small */
+
+@media (max-width: 479.98px) {
+   #header {
+      position: relative;
+      top: -40px;
+      left: 85px;
+   }
+   .open img {
+      margin-top: 10px;
+   }
+}
